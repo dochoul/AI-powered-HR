@@ -1,0 +1,30 @@
+{
+  "name": "hiworks-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "hiworks-icons": "^0.2.4",
+    "hiworks-ui-components": "^0.32.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
